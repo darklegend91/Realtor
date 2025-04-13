@@ -5,6 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 <<<<<<< HEAD
+<<<<<<< HEAD
 lerna-debug.log*
 .pnpm-debug.log*
 
@@ -136,6 +137,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 =======
+=======
+>>>>>>> e23d02be2e39edae10e4fdf89775a5513f23f52c
 pnpm-debug.log*
 lerna-debug.log*
 
@@ -154,4 +157,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 >>>>>>> e23d02b (Install react and Tailwindcss)
+=======
+>>>>>>> e23d02be2e39edae10e4fdf89775a5513f23f52c
