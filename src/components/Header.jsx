@@ -1,10 +1,9 @@
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, Link, useNavigate } from "react-router-dom";
 import React from "react";
 
 function Header() {
     const location = useLocation();
-
-    // Utility function to check if the route matches the current pathname
+    const Navigate = useNavigate();
     function pathMatchRoute(route) {
         return route === location.pathname;
     }
@@ -12,11 +11,13 @@ function Header() {
     return (
         <div className="shadow-md sticky top-0 z-50 bg-white">
             <header className="flex justify-between items-center px-3 max-w-6xl mx-auto">
+                <Link to="/">
                 <img
                     src="https://cms.nar.realtor//sites/default/files/images/logos/NAR/web_R_blk.jpg"
                     alt="logo-realtor"
                     className="h-20 cursor-pointer"
-                />
+                   
+                /></Link>
 
                 <ul className="flex space-x-10">
                     <li>
